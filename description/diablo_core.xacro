@@ -1954,34 +1954,6 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-
-  <transmission name='trans1'>
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="l4">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor1">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <transmission name='trans2'>
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="r4">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="motor2">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <gazebo>
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-      <robotNamespace>rrbot</robotNamespace>
-    </plugin>
-  </gazebo>
 </robot>
 
 

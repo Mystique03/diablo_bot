@@ -1,0 +1,29 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 30
+    use_sim_time: true
+
+    diff_drive_base_controller:
+      type: diff_drive_controller/DiffDriveController
+      ros__parameters:
+        left_wheel_names: ["l4"]
+        right_wheel_names: ["r4"]
+
+        wheel_separation: 0.0554
+        wheels_per_side: 1
+        wheel_radius: 0.02
+        command_interface: "velocity"
+
+        wheel_seperation_multiplier: 1.0
+        right_wheel_radius_multiplier: 1.0
+        left_wheel_radius_multiplier: 1.0
+
+        publish_rate: 50.0
+        odom_frame_id: odom
+        base_frame_id: base_link
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+
+    
