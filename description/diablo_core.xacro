@@ -1152,21 +1152,6 @@
       effort="4.1"
       velocity="4.71" />
   </joint>
-  
-  <!-- <joint name="panda_grip_vis_joint" type="fixed">
-    <parent link="r_wrist_Link"/>
-    <child link="panda_grip_site"/>
-    <origin rpy="0 0 0" xyz="0.02 0 0.1125"/>
-  </joint>
-  <link name="panda_grip_site">
-    <visual>
-      <geometry>
-        <sphere radius="0.005"/>
-      </geometry>
-      <material name="Vis"/>
-    </visual>
-  </link> -->
- 
  
   <link
     name="r_index_base_Link">
