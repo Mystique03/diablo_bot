@@ -108,7 +108,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/base_link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/base_link.STL</uri>
             </mesh>
           </geometry>
           <surface>
@@ -130,7 +130,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/head_pan_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/head_pan_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -152,7 +152,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/head_tilt_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/head_tilt_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -174,7 +174,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/lower_base_link.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/lower_base_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -196,12 +196,12 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/base_link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/base_link.STL</uri>
             </mesh>
           </geometry>
           <material>
             <script>
-              <name>Gazebo/Black</name>
+              <name>Gazebo/Silver</name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
             </script>
           </material>
@@ -211,7 +211,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/head_pan_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/head_pan_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -220,7 +220,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/head_tilt_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/head_tilt_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -229,7 +229,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/lower_base_link.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/lower_base_link.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -274,7 +274,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_sho_pitch_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_sho_pitch_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -296,7 +296,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_sho_pitch_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_sho_pitch_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -341,7 +341,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_sho_roll_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_sho_roll_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -363,7 +363,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_sho_roll_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_sho_roll_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -408,7 +408,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_el_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_el_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -430,7 +430,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_wrist_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_wrist_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -452,7 +452,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_index_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_index_base_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -474,7 +474,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_index_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_index_middle_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -496,7 +496,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_index_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_index_tip_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -518,7 +518,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_mid_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_mid_base_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -540,7 +540,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_mid_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_mid_middle_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -562,7 +562,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_mid_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_mid_tip_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -584,7 +584,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_thumb_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_thumb_base_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -606,7 +606,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_thumb_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_thumb_middle_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -628,7 +628,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_thumb_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_thumb_tip_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -650,7 +650,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_el_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_el_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -659,7 +659,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_wrist_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_wrist_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -668,7 +668,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_index_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_index_base_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -677,7 +677,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_index_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_index_middle_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -686,7 +686,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_index_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_index_tip_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -695,7 +695,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_mid_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_mid_base_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -704,7 +704,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_mid_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_mid_middle_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -713,7 +713,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_mid_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_mid_tip_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -722,7 +722,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_thumb_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_thumb_base_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -731,7 +731,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_thumb_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_thumb_middle_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -740,7 +740,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/l_thumb_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/l_thumb_tip_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -787,7 +787,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/motor_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/motor_left_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -809,7 +809,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg_left_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -831,7 +831,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/motor_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/motor_left_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -840,7 +840,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg_left_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -887,7 +887,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg2_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg2_left_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -909,7 +909,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg2_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg2_left_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -956,7 +956,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/wheel_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/wheel_right_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -978,7 +978,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/wheel_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/wheel_right_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1025,7 +1025,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/motor_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/motor_right_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1047,7 +1047,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg_right_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1069,7 +1069,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/motor_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/motor_right_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1078,7 +1078,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg_right_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1125,7 +1125,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg2_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg2_right_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1147,7 +1147,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/leg2_right_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/leg2_right_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1194,7 +1194,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/wheel_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/wheel_left_link_1.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1216,7 +1216,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>src/diablo_bot/description/meshes/wheel_left_link_1.stl</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/wheel_left_link_1.stl</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1261,7 +1261,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_sho_pitch_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_sho_pitch_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1283,7 +1283,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_sho_pitch_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_sho_pitch_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1328,7 +1328,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_sho_roll_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_sho_roll_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1350,7 +1350,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_sho_roll_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_sho_roll_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1395,7 +1395,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_el_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_el_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1417,7 +1417,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_wrist_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_wrist_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1439,7 +1439,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_index_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_index_base_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1461,7 +1461,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_index_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_index_middle_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1483,7 +1483,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_index_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_index_tip_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1505,7 +1505,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_mid_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_mid_base_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1527,7 +1527,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_mid_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_mid_middle_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1549,7 +1549,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_mid_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_mid_tip_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1571,7 +1571,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_thumb_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_thumb_base_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1593,7 +1593,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_thumb_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_thumb_middle_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1615,7 +1615,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_thumb_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_thumb_tip_Link.STL</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1637,7 +1637,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_el_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_el_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1646,7 +1646,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_wrist_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_wrist_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1655,7 +1655,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_index_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_index_base_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1664,7 +1664,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_index_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_index_middle_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1673,7 +1673,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_index_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_index_tip_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1682,7 +1682,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_mid_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_mid_base_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1691,7 +1691,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_mid_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_mid_middle_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1700,7 +1700,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_mid_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_mid_tip_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1709,7 +1709,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_thumb_base_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_thumb_base_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1718,7 +1718,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_thumb_middle_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_thumb_middle_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1727,7 +1727,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>src/diablo_bot/description/meshes/r_thumb_tip_Link.STL</uri>
+              <uri>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/description/meshes/r_thumb_tip_Link.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1736,26 +1736,16 @@
         <kinematic>0</kinematic>
       </link>
       <static>0</static>
-      <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-        <left_joint>l4</left_joint>
-        <right_joint>r4</right_joint>
-        <wheel_separation>0.5</wheel_separation>
-        <wheel_diameter>0.1</wheel_diameter>
-        <max_wheel_torque>200</max_wheel_torque>
-        <max_wheel_acceleration>10.0</max_wheel_acceleration>
-        <odometry_frame>odom</odometry_frame>
-        <robot_base_frame>base_link</robot_base_frame>
-        <publish_odom>1</publish_odom>
-        <publish_odom_tf>1</publish_odom_tf>
-        <publish_wheel_tf>1</publish_wheel_tf>
+      <plugin name='gazebo_ros2_control' filename='libgazebo_ros2_control.so'>
+        <parameters>/home/mystique/dev_ws/install/diablo_bot/share/diablo_bot/config/diff_drive_controller.yaml</parameters>
       </plugin>
       <pose>0 0 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>174 880000000</sim_time>
-      <real_time>181 599426732</real_time>
-      <wall_time>1733203934 889527387</wall_time>
-      <iterations>174880</iterations>
+      <sim_time>90 435000000</sim_time>
+      <real_time>118 21614216</real_time>
+      <wall_time>1733290913 464728578</wall_time>
+      <iterations>90435</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -1767,85 +1757,85 @@
         </link>
       </model>
       <model name='my_bot'>
-        <pose>-1.82937 -4.7015 0.239584 1e-05 7.6e-05 -0.481658</pose>
+        <pose>0.024417 -0.096841 0.23959 0 7.3e-05 0.151163</pose>
         <scale>1 1 1</scale>
         <link name='base_link'>
-          <pose>-1.82937 -4.7015 0.239584 1e-05 7.6e-05 -0.481658</pose>
-          <velocity>0.002945 -0.000915 -0.008466 0.001883 0.01407 0.002081</velocity>
-          <acceleration>0.036712 0.344579 -7.09144 0.352273 -1.49376 2.1022</acceleration>
-          <wrench>0.31617 2.96759 -61.073 0 -0 0</wrench>
+          <pose>0.024417 -0.096841 0.23959 0 7.3e-05 0.151163</pose>
+          <velocity>0.001935 0.000351 0.000366 -0.001393 0.008075 0.000149</velocity>
+          <acceleration>2.18677 0.418966 0.672483 2.90614 0.970413 -3.05581</acceleration>
+          <wrench>18.833 3.60822 5.79157 0 -0 0</wrench>
         </link>
         <link name='l_el_Link'>
-          <pose>-1.76075 -4.54418 0.354168 -0.441158 1.49044 0.646729</pose>
-          <velocity>0.006382 0.011702 -0.000759 0.135889 0.041394 0.006859</velocity>
-          <acceleration>0.759989 -0.318399 -5.97877 0.009047 0.03962 -0.162409</acceleration>
-          <wrench>0.232038 -0.097213 -1.82542 0 -0 0</wrench>
+          <pose>-0.017203 0.096254 0.362696 -1.04345 1.04984 0.619076</pose>
+          <velocity>-0.002723 0.009035 0.004453 0.032368 0.231268 0.057172</velocity>
+          <acceleration>-0.482685 -0.226244 0.435287 0.124689 0.186704 -0.367706</acceleration>
+          <wrench>-0.147372 -0.069076 0.132901 0 -0 0</wrench>
         </link>
         <link name='l_sho_pitch_Link'>
-          <pose>-1.79387 -4.60762 0.501829 1.57083 -0.000173 2.65994</pose>
-          <velocity>0.006133 -0.001271 -0.007193 0.035934 0.05878 0.006115</velocity>
-          <acceleration>0.603391 2.26002 -6.9316 -0.463217 0.268708 -1.49792</acceleration>
-          <wrench>0.02745 0.102814 -0.315336 0 -0 0</wrench>
+          <pose>-0.002483 -0.000139 0.501832 1.57085 -1.8e-05 -2.99028</pose>
+          <velocity>0.00396 0.000704 0.000245 -0.006336 0.032473 0.00669</velocity>
+          <acceleration>6.90686 1.28043 0.444806 2.28644 -0.513769 -2.68702</acceleration>
+          <wrench>0.31421 0.05825 0.020235 0 -0 0</wrench>
         </link>
         <link name='l_sho_roll_Link'>
-          <pose>-1.75583 -4.58535 0.50182 1.56749 -1.49812 -2.04913</pose>
-          <velocity>0.003308 -0.002725 -0.00466 0.101193 -0.023382 -0.000112</velocity>
-          <acceleration>0.625883 0.296305 -5.8041 -2.51621 1.2664 -2.29665</acceleration>
-          <wrench>0.042752 0.02024 -0.396459 0 -0 0</wrench>
+          <pose>0.015024 0.040309 0.501812 1.57015 -1.31756 -1.41871</pose>
+          <velocity>0.00322 0.00058 -0.000192 0.06319 0.040324 0.00761</velocity>
+          <acceleration>0.905061 0.244465 0.893589 -0.577836 -1.49101 -0.75296</acceleration>
+          <wrench>0.061822 0.016699 0.061038 0 -0 0</wrench>
         </link>
         <link name='leg2_left_link_1'>
-          <pose>-1.81414 -4.49772 0.232595 1.1e-05 -0.113105 -0.481654</pose>
-          <velocity>0.001443 0.00064 -0.011152 -0.003987 0.00081 0.003839</velocity>
-          <acceleration>3.48415 0.010495 -16.3646 0.4025 1.12484 -1.33995</acceleration>
-          <wrench>0.174207 0.000525 -0.818229 0 -0 0</wrench>
+          <pose>-0.104599 0.073324 0.022983 3.14158 1.04381 -2.99044</pose>
+          <velocity>0.000585 -0.000179 0.000938 0.006606 -0.0101 -0.003826</velocity>
+          <acceleration>1.15273 0.330098 -6.07475 0.077413 1.37829 -0.979033</acceleration>
+          <wrench>0.057637 0.016505 -0.303737 0 -0 0</wrench>
         </link>
         <link name='leg2_right_link_1'>
-          <pose>-1.83308 -4.91107 0.222837 1.5e-05 -0.392566 -0.481677</pose>
-          <velocity>-0.004092 0.003808 0.00575 -0.020546 -0.012791 0.019562</velocity>
-          <acceleration>-4.31515 4.4601 12.5693 -0.314372 -1.08783 1.93423</acceleration>
-          <wrench>-0.215757 0.223005 0.628465 0 -0 0</wrench>
+          <pose>-0.04115 -0.296438 0.015968 3.14159 -0.984023 -2.99042</pose>
+          <velocity>0.001432 -7.4e-05 0.001391 0.004722 -0.025699 0.002816</velocity>
+          <acceleration>0.17202 -0.179225 6.80056 -2.70961 1.3837 0.83921</acceleration>
+          <wrench>0.008601 -0.008961 0.340028 0 -0 0</wrench>
         </link>
         <link name='motor_left_link_1'>
-          <pose>-1.80425 -4.6542 0.118585 3.14158 0.619252 2.65993</pose>
-          <velocity>0.001157 -0.000637 -0.008742 -0.006469 -0.001846 0.001978</velocity>
-          <acceleration>-0.208956 0.197202 -8.033 -1.56733 1.21457 2.5526</acceleration>
-          <wrench>-0.971644 0.91699 -37.3534 0 -0 0</wrench>
+          <pose>0.0167 -0.043845 0.11859 0 0.819058 0.151163</pose>
+          <velocity>0.000964 0.000178 0.000353 -0.001238 0.007177 0.000202</velocity>
+          <acceleration>1.78259 0.33449 0.840573 1.8785 -1.0976 -0.141084</acceleration>
+          <wrench>8.28906 1.55538 3.90866 0 -0 0</wrench>
         </link>
         <link name='motor_right_link_1'>
-          <pose>-1.85377 -4.74894 0.118584 3.14158 -0.730812 2.65994</pose>
-          <velocity>0.001363 -0.000745 -0.008126 -0.042631 -0.06874 0.002307</velocity>
-          <acceleration>0.068721 0.050338 -6.07434 2.38297 0.977344 -3.09529</acceleration>
-          <wrench>0.319554 0.234074 -28.2457 0 -0 0</wrench>
+          <pose>0.032798 -0.149526 0.11859 -0 0.74803 0.151163</pose>
+          <velocity>0.000986 0.000184 0.000389 -0.000663 0.002691 0.000306</velocity>
+          <acceleration>1.79134 0.338418 1.01195 2.09612 -0.243738 -2.84008</acceleration>
+          <wrench>8.32973 1.57364 4.70557 0 -0 0</wrench>
         </link>
         <link name='r_el_Link'>
-          <pose>-1.9205 -4.84804 0.35437 -1.16496 -1.37066 2.2618</pose>
-          <velocity>-0.024493 -0.00377 -0.000994 -0.114162 -0.016801 0.01591</velocity>
-          <acceleration>0.426504 0.763763 -5.93408 -0.11569 0.195061 0.953499</acceleration>
-          <wrench>0.130219 0.23319 -1.81177 0 -0 0</wrench>
+          <pose>0.055165 -0.267063 0.355534 -1.37324 -1.13098 3.10358</pose>
+          <velocity>0.061286 0.022047 0.004254 0.02883 0.426477 -0.062596</velocity>
+          <acceleration>-1.23953 -0.13132 -0.014905 -2.47502 0.184129 -0.535146</acceleration>
+          <wrench>-0.37845 -0.040094 -0.004551 0 -0 0</wrench>
         </link>
         <link name='r_sho_pitch_Link'>
-          <pose>-1.8862 -4.78424 0.501827 1.57072 0.005662 -0.481655</pose>
-          <velocity>0.006654 -0.001503 -0.0068 0.097163 0.169034 0.002366</velocity>
-          <acceleration>1.12296 1.96301 -6.3788 2.34083 -0.376144 1.73969</acceleration>
-          <wrench>0.051086 0.089302 -0.290188 0 -0 0</wrench>
+          <pose>0.027521 -0.197167 0.501832 1.57069 -0.114451 0.151243</pose>
+          <velocity>0.004003 0.000707 0.000444 0.060789 -0.402244 0.000888</velocity>
+          <acceleration>7.26587 1.33402 1.00799 -2.30098 -1.04743 0.588761</acceleration>
+          <wrench>0.330543 0.060688 0.045856 0 -0 0</wrench>
         </link>
         <link name='r_sho_roll_Link'>
-          <pose>-1.88276 -4.82819 0.501687 1.64395 -1.492 1.01621</pose>
-          <velocity>0.00734 -0.000633 -0.010148 -0.020547 0.214499 -0.002972</velocity>
-          <acceleration>0.605328 1.09259 -6.19817 2.26561 -0.509369 0.823031</acceleration>
-          <wrench>0.041348 0.074631 -0.423377 0 -0 0</wrench>
+          <pose>0.056134 -0.230585 0.504496 0.632338 -1.4289 2.6555</pose>
+          <velocity>0.002976 0.000648 0.009884 0.143788 -0.389216 0.008784</velocity>
+          <acceleration>0.714466 0.23663 0.202152 -2.24249 1.18577 -1.18627</acceleration>
+          <wrench>0.048803 0.016163 0.013808 0 -0 0</wrench>
         </link>
         <link name='wheel_left_link_1'>
-          <pose>-1.78731 -4.48049 0.093489 2.3e-05 -1.19058 -0.481675</pose>
-          <velocity>0.001145 1.7e-05 -0.010884 -0.003233 0.000415 0.002658</velocity>
-          <acceleration>2.22701 -0.128555 -14.3 -2.29091 0.591106 1.4501</acceleration>
-          <wrench>5.56752 -0.321387 -35.7501 0 -0 0</wrench>
+          <pose>-0.228395 0.082486 0.093394 9e-06 3.8e-05 0.151163</pose>
+          <velocity>-0.000233 -0.00012 -0.00031 0.001531 0.00283 -0.003445</velocity>
+          <acceleration>-0.456321 0.352143 -8.79039 2.77492 -0.771893 -0.853469</acceleration>
+          <wrench>-1.1408 0.880356 -21.976 0 -0 0</wrench>
         </link>
         <link name='wheel_right_link_1'>
-          <pose>-1.79844 -4.96043 0.093485 7e-06 -0.541574 -0.481671</pose>
-          <velocity>-0.001834 0.00203 0.005649 -0.019574 -0.014746 0.019192</velocity>
-          <acceleration>-2.21132 3.43232 11.8136 2.14526 -0.298545 -0.712484</acceleration>
-          <wrench>-5.5283 8.58079 29.534 0 -0 0</wrench>
+          <pose>0.078275 -0.306265 0.093481 5e-06 -0.9244 0.151163</pose>
+          <velocity>-0.0006 4.1e-05 0.004119 -0.000578 -0.005821 0.002183</velocity>
+          <acceleration>-1.13864 0.125006 8.33465 3.11882 -0.652914 -1.92382</acceleration>
+          <wrench>-2.84659 0.312515 20.8366 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
@@ -1854,7 +1844,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>2.42361 -7.65065 1.81433 0 0.275643 2.35619</pose>
+        <pose>4.23856 -5.85867 1.75693 0 0.275643 2.35619</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

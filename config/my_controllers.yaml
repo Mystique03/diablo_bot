@@ -1,0 +1,59 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+    use_sim_time: true
+
+    trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    diff_drive_base_controller:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+trajectory_controller:
+  ros__parameters:
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+
+    joints:
+      - l_sho_pitch
+      - l_sho_roll
+      - l_el
+      - r_sho_pitch
+      - r_sho_roll
+      - r_el
+      - l1
+      #- l2
+      - l3
+      - l4
+      - r1
+      #- r2
+      - r3
+      - r4
+
+diff_drive_base_controller:
+  ros__parameters:
+    left_wheel_names:
+      - l4
+    right_wheel_names:
+      - r4
+
+    wheel_separation: 0.0552
+    wheels_per_side: 1
+    wheel_radius: 0.02
+    command_interface: "velocity"
+
+    wheel_seperation_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+
+    publish_rate: 50.0
+    odom_frame_id: odom
+    base_frame_id: base_link
+
+    
