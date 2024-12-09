@@ -14,19 +14,19 @@
         xyz="-0.000133969014443958 9.89326606748442E-10 0.16568604874225"
         rpy="0 0 0" />
       <mass
-        value="0.459362407581758" />
+        value="0.459362407581758"/>
       <inertia
         ixx="0.00098999304970947"
         ixy="-5.22508964297137E-12"
         ixz="4.6696368166189E-09"
         iyy="0.000787503978866051"
         iyz="1.94259853491067E-13"
-        izz="0.000705078033251521" />
+        izz="0.000705078033251521"/>
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="0 0 0"/>
       <geometry>
         <mesh
           filename="$(find diablo_bot)/description/meshes/base_link.STL" />
@@ -1724,7 +1724,7 @@
     <child link="lower_base_link"/>
     <axis xyz="0.0 -1.0 0.0"/>
     <limit  effort="9.6" velocity="12.05"/>
-    <dynamics damping="0" friction="0"/>   <!--changed [friction:0]-->
+    <dynamics damping="0" friction="0"/>
   </joint>
 
   <link name="motor_right_link_1">
@@ -1750,7 +1750,7 @@
   <link name="motor_left_link_1">
     <inertial>
       <origin rpy="0 0 0" xyz="4.148993296440801e-07 0.06735128629132996 -0.0012035359325800465"/>
-      <mass value="4.6"/>
+      <mass value="2.6"/>
       <inertia ixx="0.027399" ixy="0.0" ixz="0.0" iyy="0.027359" iyz="0.000518" izz="0.026313"/>
     </inertial>
     <visual>
@@ -1890,14 +1890,6 @@
 
     <!-- ==================================== Lower Body Joints ============================= -->
 
-  <joint name="r1" type="continuous">
-    <origin rpy="0 0 0" xyz="0.00036 -0.053347 0.379"/>
-    <parent link="lower_base_link"/>
-    <child link="motor_right_link_1"/>
-    <axis xyz="0.0 -1.0 0.0"/>
-    <limit  effort="9.6" velocity="12.05"/>
-    <dynamics damping="0" friction="0"/>
-  </joint>
   <joint name="l1" type="continuous">
     <origin rpy="0 0 0" xyz="0.00036 0.053553 0.379"/>
     <parent link="lower_base_link"/>
@@ -1930,6 +1922,14 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
+  <joint name="r1" type="continuous">
+    <origin rpy="0 0 0" xyz="0.00036 -0.053347 0.379"/>
+    <parent link="lower_base_link"/>
+    <child link="motor_right_link_1"/>
+    <axis xyz="0.0 -1.0 0.0"/>
+    <limit  effort="9.6" velocity="12.05"/>
+    <dynamics damping="0" friction="0"/>
+  </joint>
   <joint name="r2" type="fixed">
     <origin rpy="0 0 0" xyz="0.0 -0.1181 0.0"/>
     <parent link="motor_right_link_1"/>
@@ -1954,7 +1954,6 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-
 </robot>
 
 
