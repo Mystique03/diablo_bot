@@ -19,9 +19,10 @@ def generate_launch_description():
     package_name='diablo_bot'
 
     rsp = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
+                PythonLaunchDescriptionSource(os.path.join(
                     get_package_share_directory(package_name),'launch','rsp.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
+                )), 
+                launch_arguments={'use_sim_time': 'true'}.items()
     )
 
     '''joystick = IncludeLaunchDescription(
@@ -42,8 +43,9 @@ def generate_launch_description():
 
     # Include the Gazebo launch file, provided by the gazebo_ros package
     gazebo = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory('gazebo_ros'), 'launch'), '/gazebo.launch.py']),
+                PythonLaunchDescriptionSource(os.path.join(
+                    get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')
+                ),
                     launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
              )
 
@@ -53,7 +55,7 @@ def generate_launch_description():
                                    '-entity', 'diffbot',
                                    '-x', '0.0',
                                    '-y', '0.0',
-                                   '-z', '0.495',
+                                   '-z', '0.490000',
                                    '-R', '0.0',
                                    '-P', '0.0',
                                    '-Y', '0.0',
@@ -80,29 +82,12 @@ def generate_launch_description():
         arguments=["trajectory_controller"]
     )
 
-    forward_velocity_controller = Node(
-        package = "controller_manager",
-        executable= "spawner",
-        arguments=["forward_velocity_controller"]
-    )
-
-    forward_position_controller = Node(
-        package = "controller_manager",
-        executable= "spawner",
-        arguments=["forward_position_controller"]
-    )
-
     position_controller = Node(
         package="controller_manager",
         executable="spawner",
         arguments=["position_controller"]
     )
 
-    velocity_controller = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["velocity_controller"]
-    )
     
     # Launch them all!
     return LaunchDescription([
@@ -110,7 +95,18 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
-        joint_state_broadcaster,
-        position_controller,
-        velocity_controller,
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=spawn_entity,
+                on_exit=[joint_state_broadcaster],
+            )
+        ),
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=joint_state_broadcaster,
+                on_exit=[
+                        trajectory_controller,
+                         diff_drive_base_controller],
+            )
+        ),
     ])

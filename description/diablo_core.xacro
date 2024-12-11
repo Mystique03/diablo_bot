@@ -1718,7 +1718,9 @@
     </collision>
   </link>
 
-  <joint name="lower_base_joint" type="fixed">
+
+
+    <joint name="lower_base_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0 0.0 -0.5"/>
     <parent link="base_link"/>
     <child link="lower_base_link"/>
@@ -1726,6 +1728,9 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
+
+
+
 
   <link name="motor_right_link_1">
     <inertial>
@@ -1750,7 +1755,7 @@
   <link name="motor_left_link_1">
     <inertial>
       <origin rpy="0 0 0" xyz="4.148993296440801e-07 0.06735128629132996 -0.0012035359325800465"/>
-      <mass value="2.6"/>
+      <mass value="4.6"/>
       <inertia ixx="0.027399" ixy="0.0" ixz="0.0" iyy="0.027359" iyz="0.000518" izz="0.026313"/>
     </inertial>
     <visual>
@@ -1888,9 +1893,16 @@
     </collision>
   </link>
 
-    <!-- ==================================== Lower Body Joints ============================= -->
 
-  <joint name="l1" type="continuous">
+  <joint name="r1" type="continous">
+    <origin rpy="0 0 0" xyz="0.00036 -0.053347 0.379"/>
+    <parent link="lower_base_link"/>
+    <child link="motor_right_link_1"/>
+    <axis xyz="0.0 -1.0 0.0"/>
+    <limit  effort="9.6" velocity="12.05"/>
+    <dynamics damping="0" friction="0"/>
+  </joint>
+  <joint name="l1" type="continous">
     <origin rpy="0 0 0" xyz="0.00036 0.053553 0.379"/>
     <parent link="lower_base_link"/>
     <child link="motor_left_link_1"/>
@@ -1898,35 +1910,12 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
+
   <joint name="l2" type="fixed">
     <origin rpy="0 0 0" xyz="0.0 0.1181 0.0"/>
     <parent link="motor_left_link_1"/>
     <child link="leg_left_link_1"/>
     <axis xyz="0.0 1.0 0.0"/>
-    <limit  effort="9.6" velocity="12.05"/>
-    <dynamics damping="0" friction="0"/>
-  </joint>
-  <joint name="l3" type="continuous">
-    <origin rpy="0 0 0" xyz="0.0 0.016 -0.14"/>
-    <parent link="leg_left_link_1"/>
-    <child link="leg2_left_link_1"/>
-    <axis xyz="0.0 1.0 -0.0"/>
-    <limit  effort="9.6" velocity="12.05"/>
-    <dynamics damping="0" friction="0"/>
-  </joint>
-  <joint name="l4" type="continuous">
-    <origin rpy="0 0 0" xyz="0.0 0.0277 -0.14"/>
-    <parent link="leg2_left_link_1"/>
-    <child link="wheel_left_link_1"/>
-    <axis xyz="0.0 1.0 0.0"/>
-    <limit  effort="9.6" velocity="12.05"/>
-    <dynamics damping="0" friction="0"/>
-  </joint>
-  <joint name="r1" type="continuous">
-    <origin rpy="0 0 0" xyz="0.00036 -0.053347 0.379"/>
-    <parent link="lower_base_link"/>
-    <child link="motor_right_link_1"/>
-    <axis xyz="0.0 -1.0 0.0"/>
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
@@ -1938,7 +1927,16 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-  <joint name="r3" type="continuous">
+
+  <joint name="l3" type="continous">
+    <origin rpy="0 0 0" xyz="0.0 0.016 -0.14"/>
+    <parent link="leg_left_link_1"/>
+    <child link="leg2_left_link_1"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <limit  effort="9.6" velocity="12.05"/>
+    <dynamics damping="0" friction="0"/>
+  </joint>
+  <joint name="r3" type="continous">
     <origin rpy="0 0 0" xyz="0.0 -0.016 -0.14"/>
     <parent link="leg_right_link_1"/>
     <child link="leg2_right_link_1"/>
@@ -1946,11 +1944,20 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-  <joint name="r4" type="continuous">
+
+  <joint name="l4" type="continous">
+    <origin rpy="0 0 0" xyz="0.0 0.0277 -0.14"/>
+    <parent link="leg2_left_link_1"/>
+    <child link="wheel_left_link_1"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <limit  effort="9.6" velocity="12.05"/>
+    <dynamics damping="0" friction="0"/>
+  </joint>
+  <joint name="r4" type="continous">
     <origin rpy="0 0 0" xyz="0.0 -0.0277 -0.14"/>
     <parent link="leg2_right_link_1"/>
     <child link="wheel_right_link_1"/>
-    <axis xyz="0.0 -1.0 0.0"/>
+    <axis xyz="0.0 -1.0 -0.0"/>
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
