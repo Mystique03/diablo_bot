@@ -1894,7 +1894,7 @@
   </link>
 
 
-  <joint name="r1" type="continuous ">
+  <joint name="r1" type="continuous">
     <origin rpy="0 0 0" xyz="0.00036 -0.053347 0.379"/>
     <parent link="lower_base_link"/>
     <child link="motor_right_link_1"/>
@@ -1902,7 +1902,7 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-  <joint name="l1" type="continuous ">
+  <joint name="l1" type="continuous">
     <origin rpy="0 0 0" xyz="0.00036 0.053553 0.379"/>
     <parent link="lower_base_link"/>
     <child link="motor_left_link_1"/>
