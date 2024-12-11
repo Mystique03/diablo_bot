@@ -1894,7 +1894,7 @@
   </link>
 
 
-  <joint name="r1" type="continous">
+  <joint name="r1" type="continuous ">
     <origin rpy="0 0 0" xyz="0.00036 -0.053347 0.379"/>
     <parent link="lower_base_link"/>
     <child link="motor_right_link_1"/>
@@ -1902,7 +1902,7 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-  <joint name="l1" type="continous">
+  <joint name="l1" type="continuous ">
     <origin rpy="0 0 0" xyz="0.00036 0.053553 0.379"/>
     <parent link="lower_base_link"/>
     <child link="motor_left_link_1"/>
@@ -1928,7 +1928,7 @@
     <dynamics damping="0" friction="0"/>
   </joint>
 
-  <joint name="l3" type="continous">
+  <joint name="l3" type="continuous">
     <origin rpy="0 0 0" xyz="0.0 0.016 -0.14"/>
     <parent link="leg_left_link_1"/>
     <child link="leg2_left_link_1"/>
@@ -1936,7 +1936,7 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-  <joint name="r3" type="continous">
+  <joint name="r3" type="continuous">
     <origin rpy="0 0 0" xyz="0.0 -0.016 -0.14"/>
     <parent link="leg_right_link_1"/>
     <child link="leg2_right_link_1"/>
@@ -1945,7 +1945,7 @@
     <dynamics damping="0" friction="0"/>
   </joint>
 
-  <joint name="l4" type="continous">
+  <joint name="l4" type="continuous">
     <origin rpy="0 0 0" xyz="0.0 0.0277 -0.14"/>
     <parent link="leg2_left_link_1"/>
     <child link="wheel_left_link_1"/>
@@ -1953,7 +1953,7 @@
     <limit  effort="9.6" velocity="12.05"/>
     <dynamics damping="0" friction="0"/>
   </joint>
-  <joint name="r4" type="continous">
+  <joint name="r4" type="continuous">
     <origin rpy="0 0 0" xyz="0.0 -0.0277 -0.14"/>
     <parent link="leg2_right_link_1"/>
     <child link="wheel_right_link_1"/>
