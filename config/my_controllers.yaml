@@ -1,7 +1,6 @@
 controller_manager:
   ros__parameters:
-    update_rate: 1000
-    use_sim_time: true
+    update_rate: 50
 
     trajectory_controller:
       type: joint_trajectory_controller/JointTrajectoryController
@@ -12,16 +11,7 @@ controller_manager:
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-    position_controller:
-      type: position_controllers/JointGroupPositionController
-
-    velocity_controller:
-      type: velocity_controllers/JointGroupVelocityController
     
-    effort_controller:
-      type: effort_controllers/JointGroupEffortController
-    
-
 trajectory_controller:
   ros__parameters:
     command_interfaces:
@@ -36,12 +26,10 @@ trajectory_controller:
       - r_sho_roll
       - l_el
       - r_el
-
-effort_controller:
-  ros__parameters:
-    joints:
-      - l4
-      - r4
+      - l1
+      - r1
+      - l3
+      - r3
 
 diff_drive_base_controller:
   ros__parameters:
@@ -62,21 +50,21 @@ diff_drive_base_controller:
     odom_frame_id: odom
     base_frame_id: base_link
 
-position_controller:
-  ros__parameters:
-    joints:
-      - l1
-      - r1
-      - l3
-      - r3
-      - l4
-      - r4
+#position_controller:
+#  ros__parameters:
+#    joints:
+#      - l1
+#      - r1
+#      - l3
+#      - r3
+#      - l4
+#      - r4
 
-velocity_controller:
-  ros__parameters:
-    joints:
-      - l4
-      - r4
+#velocity_controller:
+#  ros__parameters:
+#    joints:
+#      - l4
+#      - r4
     
 
     

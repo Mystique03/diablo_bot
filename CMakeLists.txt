@@ -19,20 +19,22 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(rclpy REQUIRED)
 
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY config description launch worlds meshes
   DESTINATION share/${PROJECT_NAME}
-)
-
-install(
-  DIRECTORY description/meshes
-  DESTINATION share/${PROJECT_NAME}/description/
 )
 
 add_executable(diff_drive_publisher config/diff_drive_publisher.cpp)
 ament_target_dependencies(diff_drive_publisher rclcpp geometry_msgs)
 
+install(PROGRAMS
+config/selfBalance.py
+config/pidcontrol.py
+DESTINATION lib/${PROJECT_NAME}
+)
 
 install(
   TARGETS diff_drive_publisher

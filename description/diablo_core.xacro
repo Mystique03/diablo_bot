@@ -7,12 +7,7 @@
 <!-- =================================================================================== -->
 <!-- |                                      UPPER BODY                                 | -->
 <!-- =================================================================================== -->
-  <link name="dummy_root"/>
 
-  <joint name="dummy_to_base" type="fixed">
-    <parent link="dummy_root"/>
-    <child link="base_link"/>
-  </joint>
   
   <link
     name="base_link">
@@ -36,7 +31,7 @@
         rpy="0 0 0"/>
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/base_link.STL" />
+          filename="package://diablo_bot/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -50,7 +45,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/base_link.STL" />
+          filename="package://diablo_bot/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -81,7 +76,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_sho_pitch_Link.STL" />
+          filename="package://diablo_bot/meshes/l_sho_pitch_Link.STL" />
       </geometry>
       <material
         name="">
@@ -95,7 +90,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_sho_pitch_Link.STL" />
+          filename="package://diablo_bot/meshes/l_sho_pitch_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -139,7 +134,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_sho_roll_Link.STL" />
+          filename="package://diablo_bot/meshes/l_sho_roll_Link.STL" />
       </geometry>
       <material
         name="">
@@ -153,7 +148,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_sho_roll_Link.STL" />
+          filename="package://diablo_bot/meshes/l_sho_roll_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -197,7 +192,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_el_Link.STL" />
+          filename="package://diablo_bot/meshes/l_el_Link.STL" />
       </geometry>
       <material
         name="">
@@ -211,7 +206,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_el_Link.STL" />
+          filename="package://diablo_bot/meshes/l_el_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -255,7 +250,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_wrist_Link.STL" />
+          filename="package://diablo_bot/meshes/l_wrist_Link.STL" />
       </geometry>
       <material
         name="">
@@ -269,7 +264,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_wrist_Link.STL" />
+          filename="package://diablo_bot/meshes/l_wrist_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -313,7 +308,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_mid_base_Link.STL" />
+          filename="package://diablo_bot/meshes/l_mid_base_Link.STL" />
       </geometry>
       <material
         name="">
@@ -327,7 +322,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_mid_base_Link.STL" />
+          filename="package://diablo_bot/meshes/l_mid_base_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -371,7 +366,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_mid_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/l_mid_middle_Link.STL" />
       </geometry>
       <material
         name="">
@@ -385,7 +380,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_mid_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/l_mid_middle_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -429,7 +424,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_mid_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/l_mid_tip_Link.STL" />
       </geometry>
       <material
         name="">
@@ -443,7 +438,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_mid_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/l_mid_tip_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -487,7 +482,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_thumb_base_Link.STL" />
+          filename="package://diablo_bot/meshes/l_thumb_base_Link.STL" />
       </geometry>
       <material
         name="">
@@ -501,7 +496,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_thumb_base_Link.STL" />
+          filename="package://diablo_bot/meshes/l_thumb_base_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -545,7 +540,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_thumb_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/l_thumb_middle_Link.STL" />
       </geometry>
       <material
         name="">
@@ -559,7 +554,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_thumb_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/l_thumb_middle_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -603,7 +598,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_thumb_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/l_thumb_tip_Link.STL" />
       </geometry>
       <material
         name="">
@@ -617,7 +612,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_thumb_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/l_thumb_tip_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -661,7 +656,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_index_base_Link.STL" />
+          filename="package://diablo_bot/meshes/l_index_base_Link.STL" />
       </geometry>
       <material
         name="">
@@ -675,7 +670,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_index_base_Link.STL" />
+          filename="package://diablo_bot/meshes/l_index_base_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -719,7 +714,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_index_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/l_index_middle_Link.STL" />
       </geometry>
       <material
         name="">
@@ -733,7 +728,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_index_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/l_index_middle_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -777,7 +772,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_index_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/l_index_tip_Link.STL" />
       </geometry>
       <material
         name="">
@@ -791,7 +786,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/l_index_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/l_index_tip_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -835,7 +830,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/head_pan_Link.STL" />
+          filename="package://diablo_bot/meshes/head_pan_Link.STL" />
       </geometry>
       <material
         name="">
@@ -849,7 +844,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/head_pan_Link.STL" />
+          filename="package://diablo_bot/meshes/head_pan_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -893,7 +888,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/head_tilt_Link.STL" />
+          filename="package://diablo_bot/meshes/head_tilt_Link.STL" />
       </geometry>
       <material
         name="">
@@ -907,7 +902,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/head_tilt_Link.STL" />
+          filename="package://diablo_bot/meshes/head_tilt_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -951,7 +946,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_sho_pitch_Link.STL" />
+          filename="package://diablo_bot/meshes/r_sho_pitch_Link.STL" />
       </geometry>
       <material
         name="">
@@ -965,7 +960,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_sho_pitch_Link.STL" />
+          filename="package://diablo_bot/meshes/r_sho_pitch_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1009,7 +1004,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_sho_roll_Link.STL" />
+          filename="package://diablo_bot/meshes/r_sho_roll_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1023,7 +1018,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_sho_roll_Link.STL" />
+          filename="package://diablo_bot/meshes/r_sho_roll_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1067,7 +1062,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_el_Link.STL" />
+          filename="package://diablo_bot/meshes/r_el_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1081,7 +1076,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_el_Link.STL" />
+          filename="package://diablo_bot/meshes/r_el_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1125,7 +1120,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_wrist_Link.STL" />
+          filename="package://diablo_bot/meshes/r_wrist_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1139,7 +1134,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_wrist_Link.STL" />
+          filename="package://diablo_bot/meshes/r_wrist_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1199,7 +1194,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_index_base_Link.STL" />
+          filename="package://diablo_bot/meshes/r_index_base_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1213,7 +1208,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_index_base_Link.STL" />
+          filename="package://diablo_bot/meshes/r_index_base_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1257,7 +1252,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_index_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/r_index_middle_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1271,7 +1266,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_index_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/r_index_middle_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1315,7 +1310,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_index_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/r_index_tip_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1329,7 +1324,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_index_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/r_index_tip_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1373,7 +1368,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_mid_base_Link.STL" />
+          filename="package://diablo_bot/meshes/r_mid_base_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1387,7 +1382,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_mid_base_Link.STL" />
+          filename="package://diablo_bot/meshes/r_mid_base_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1431,7 +1426,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_mid_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/r_mid_middle_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1445,7 +1440,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_mid_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/r_mid_middle_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1489,7 +1484,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_mid_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/r_mid_tip_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1503,7 +1498,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_mid_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/r_mid_tip_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1547,7 +1542,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_thumb_base_Link.STL" />
+          filename="package://diablo_bot/meshes/r_thumb_base_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1561,7 +1556,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_thumb_base_Link.STL" />
+          filename="package://diablo_bot/meshes/r_thumb_base_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1605,7 +1600,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_thumb_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/r_thumb_middle_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1619,7 +1614,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_thumb_middle_Link.STL" />
+          filename="package://diablo_bot/meshes/r_thumb_middle_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1663,7 +1658,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_thumb_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/r_thumb_tip_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1677,7 +1672,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://diablo_bot/description/meshes/r_thumb_tip_Link.STL" />
+          filename="package://diablo_bot/meshes/r_thumb_tip_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1713,14 +1708,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/lower_base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/lower_base_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/lower_base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/lower_base_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1748,14 +1743,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.053347 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.053347 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1768,14 +1763,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.053553 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.053553 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1788,14 +1783,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.171653 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.171653 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1808,14 +1803,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.187653 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.187653 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1828,14 +1823,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.215353 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.215353 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1848,14 +1843,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.171447 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.171447 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1868,14 +1863,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.187447 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.187447 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1888,14 +1883,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.215147 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.215147 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_bot/description/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://diablo_bot/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1957,7 +1952,9 @@
     <parent link="leg2_left_link_1"/>
     <child link="wheel_left_link_1"/>
     <axis xyz="0.0 1.0 0.0"/>
-    <limit  effort="9.6" velocity="12.05"/>
+    <limit
+      effort="9.6"
+      velocity="12.05" />
     <dynamics damping="0" friction="0"/>
   </joint>
   <joint name="r4" type="continuous">
@@ -1965,7 +1962,9 @@
     <parent link="leg2_right_link_1"/>
     <child link="wheel_right_link_1"/>
     <axis xyz="0.0 -1.0 0.0"/>
-    <limit  effort="9.6" velocity="12.05"/>
+    <limit
+      effort="9.6"
+      velocity="12.05" />
     <dynamics damping="0" friction="0"/>
   </joint>
 </robot>

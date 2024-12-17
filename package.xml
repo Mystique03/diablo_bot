@@ -9,15 +9,19 @@
 
   <depend>rclcpp</depend>
   <depend>trajectory_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>tf_transformations</depend>
+
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+  <test_depend>python3-pytest</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
-    <gazebo_ros gazebo_model_path = "home/mystique/dev_ws/install/diablo_bot/share/" />
-    <gazebo_ros gazebo_media_path = "home/mystique/dev_ws/install/diablo_bot/share/" />
   </export>
 </package>

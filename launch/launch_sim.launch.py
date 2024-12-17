@@ -45,10 +45,11 @@ def generate_launch_description():
                                    '-entity', 'diffbot',
                                    '-x', '0.0',
                                    '-y', '0.0',
-                                   '-z', '0.49',
+                                   '-z', '0.53',
                                    '-R', '0.0',
                                    '-P', '0.0',
                                    '-Y', '0.0',
+                                   '-package_to_model',
                                    ],
                         output='screen')
 
@@ -83,7 +84,10 @@ def generate_launch_description():
             'use_sim_time',
             default_value='false',
             description='Use sim time if true'),
-        gazebo,
         node_robot_state_publisher,
-        spawn_entity
+        gazebo,
+        spawn_entity,
+        joint_state_broadcaster,
+        trajectory_controller,
+        diff_drive_base_controller
     ])

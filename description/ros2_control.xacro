@@ -64,7 +64,6 @@
                 <param name="initial_value">0.0</param>
             </state_interface>
             <state_interface name='velocity'/>
-            <state_interface name='effort'/>
         </joint>
 
         <joint name="r1">
@@ -73,7 +72,6 @@
                 <param name="initial_value">0.0</param>
             </state_interface>
             <state_interface name='velocity'/>
-            <state_interface name='effort'/>
         </joint>
         
         <joint name="l3">
@@ -82,7 +80,6 @@
                 <param name="initial_value">0.0</param>
             </state_interface>
             <state_interface name='velocity'/>
-            <state_interface name='effort'/>
         </joint>
 
         <joint name="r3">
@@ -91,27 +88,24 @@
                 <param name="initial_value">0.0</param>
             </state_interface>
             <state_interface name='velocity'/>
-            <state_interface name='effort'/>
         </joint>
 
         <joint name="r4">
             <command_interface name="velocity">
-                <param name="min">-1.0</param>
-                <param name="max">1.0</param>
+                <param name="min">-10.0</param>
+                <param name="max">10.0</param>
             </command_interface>
             <state_interface name='position'/>
             <state_interface name='velocity'/>
-            <state_interface name='effort'/>
         </joint>
 
         <joint name="l4">
             <command_interface name="velocity">
-                <param name="min">-1.0</param>
-                <param name="max">1.0</param>
+                <param name="min">-10.0</param>
+                <param name="max">10.0</param>
             </command_interface>
             <state_interface name='position'/>
             <state_interface name='velocity'/>
-            <state_interface name='effort'/>
         </joint>
     </ros2_control>
 </robot>
