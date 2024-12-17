@@ -4,42 +4,19 @@ from ament_index_python.packages import get_package_share_directory
 
 
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler
+from launch.substitutions import LaunchConfiguration
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import Command, FindExecutable
-from launch_ros.substitutions import FindPackageShare
-from launch.event_handlers import OnProcessExit
 
 from launch_ros.actions import Node
-
+import xacro
 
 
 def generate_launch_description():
 
-    package_name='diablo_bot'
+    use_sim_time = LaunchConfiguration('use_sim_time')
 
-    rsp = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource(os.path.join(
-                    get_package_share_directory(package_name),'launch','rsp.launch.py'
-                )), 
-                launch_arguments={'use_sim_time': 'true'}.items()
-    )
-
-    '''joystick = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory(package_name),'launch','joystick.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
-    )'''
-
-    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
-    twist_mux = Node(
-            package="twist_mux",
-            executable="twist_mux",
-            parameters=[ {'use_sim_time': True}],
-            remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
-        )
-
-    gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+    gazebo_params_file = os.path.join(get_package_share_directory("diablo_bot"),'config','gazebo_params.yaml')
 
     # Include the Gazebo launch file, provided by the gazebo_ros package
     gazebo = IncludeLaunchDescription(
@@ -48,6 +25,19 @@ def generate_launch_description():
                 ),
                     launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
              )
+    
+    pkg_path = os.path.join(get_package_share_directory('diablo_bot'))
+    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')
+    robot_description_config = xacro.process_file(xacro_file)
+    
+    # Create a robot_state_publisher node
+    params = {'robot_description': robot_description_config.toxml(), 'use_sim_time': use_sim_time}
+    node_robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[params]
+    )
 
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
@@ -55,14 +45,12 @@ def generate_launch_description():
                                    '-entity', 'diffbot',
                                    '-x', '0.0',
                                    '-y', '0.0',
-                                   '-z', '0.490000',
+                                   '-z', '0.49',
                                    '-R', '0.0',
                                    '-P', '0.0',
                                    '-Y', '0.0',
                                    ],
                         output='screen')
-    
-
 
     joint_state_broadcaster= Node(
         package="controller_manager",
@@ -91,22 +79,11 @@ def generate_launch_description():
     
     # Launch them all!
     return LaunchDescription([
-
-        rsp,
+        DeclareLaunchArgument(
+            'use_sim_time',
+            default_value='false',
+            description='Use sim time if true'),
         gazebo,
-        spawn_entity,
-        RegisterEventHandler(
-            event_handler=OnProcessExit(
-                target_action=spawn_entity,
-                on_exit=[joint_state_broadcaster],
-            )
-        ),
-        RegisterEventHandler(
-            event_handler=OnProcessExit(
-                target_action=joint_state_broadcaster,
-                on_exit=[
-                        trajectory_controller,
-                         diff_drive_base_controller],
-            )
-        ),
+        node_robot_state_publisher,
+        spawn_entity
     ])

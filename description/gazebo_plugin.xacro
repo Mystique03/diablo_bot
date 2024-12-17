@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <gazebo>
+        <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+            <parameters>$(find diablo_bot)/config/my_controllers.yaml</parameters>
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
+            <rpy_offsets>0 0 0</rpy_offsets>
+            <xyz_offsets>0 0 0</xyz_offsets>
+            <frame_name>base_footprint</frame_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <topic_name>gazebo_robot_pose</topic_name>
+            <body_name>dummy_root</body_name>
+            <update_rate>50.0</update_rate>
+            <always_on>true</always_on>
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
+            <always_on>true</always_on>
+            <body_name>dummy_root</body_name>
+            <topic_name>imu</topic_name>
+            <service_name>imu_service</service_name>
+            <gaussian_noise>0.0</gaussian_noise>
+            <update_rate>20.0</update_rate>
+        </plugin>
+    </gazebo>
+</robot>

@@ -2,6 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="diablo_robot">
 
     <xacro:include filename="diablo_core.xacro" />
-    <xacro:include filename="ros2_control.xacro" />
+    <!--<xacro:include filename="ros2_control.xacro" />
+    <xacro:include filename="gazebo_plugin.xacro" />-->
     
 </robot>

@@ -8,56 +8,6 @@
 
         <!--Upper body joints-->
 
-        <joint name="head_pan">
-            <command_interface name="position" />
-            <state_interface name='position'>
-                <param name="initial_value">0.0</param>
-            </state_interface>
-            <state_interface name='velocity' />
-        </joint>
-
-        <joint name="head_tilt">
-            <command_interface name="position" />
-            <state_interface name='position'>
-                <param name="initial_value">0.0</param>
-            </state_interface>
-            <state_interface name='velocity' />
-        </joint>
-
-        <joint name="l_wrist">
-        </joint>
-
-        <joint name="r_wrist">
-        </joint>
-
-        <joint name="l_index_base">
-        </joint>
-
-        <joint name="r_index_base">
-        </joint>
-
-        <joint name="l_index_middle">
-        </joint>
-
-        <joint name="r_index_middle">
-        </joint>
-
-        <joint name="l_index_tip">
-        </joint>
-
-        <joint name="r_index_tip">
-        </joint>
-
-        <joint name="l_mid_base">
-        </joint>
-
-        <joint name="r_mid_base">
-        </joint>
-
-
-
-
-
         <joint name="l_sho_pitch">
             <command_interface name="position" />
             <state_interface name='position'>
@@ -164,10 +114,4 @@
             <state_interface name='effort'/>
         </joint>
     </ros2_control>
-
-    <gazebo>
-        <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-            <parameters>$(find diablo_bot)/config/my_controllers.yaml</parameters>
-        </plugin>
-    </gazebo>
 </robot>
